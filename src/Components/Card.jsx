@@ -54,7 +54,7 @@ const Card = ({ id, name, description, index, moveCard, img }) => {
                         </div>
                     </div>
                     <div className="absolute inset-0 flex flex-col items-center justify-start ">
-                        <div className="absolute inset-x-0 bottom-0 bg-opacity-20 bg-black border-t border-gray-400 backdrop-filter backdrop-blur-lg flex flex-col items-center justify-end px-2 py-4 rounded-xl">
+                        <div className="absolute inset-x-0 bottom-0 bg-opacity-10 bg-black border-t border-gray-400 backdrop-filter backdrop-blur-lg flex flex-col items-center justify-end px-2 py-4 rounded-xl">
                             <div className="flex justify-between w-full text-white">
                                 <div>
                                     <p className="text-md ">{name}</p>
